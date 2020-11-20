@@ -7,8 +7,9 @@
 
 
 body{
-  background-color: pink;
+  background-color:black;
   font-size: 22px;
+  color:white;
   font-family: sans-serif;
   margin: 0;
   padding: 0;
@@ -22,7 +23,7 @@ body{
 
 h1{
   font-size: 48px;
-  color:purple
+  color:turquoise
 }
 
 footer{
@@ -33,7 +34,7 @@ margin-top: 2em;
 }
 
 footer a{
-  color: black;
+  color:lightblue;
   font-weight: bolder;
   text-decoration: underline;
   cursor: crosshair;
