@@ -26,17 +26,8 @@ function draw() {
   
   // espiral a partir del incremento del ángulo
   
-  /*
-  beginShape();
-  for(let ang = 0; ang < turns * TWO_PI; ang += angInc){ 
-    r += rad;
-    // identidad circular
-    let x = cos(ang) * r;
-    let y = sin(ang) * r;
-    vertex(x, y);
-  }
-  endShape();
-  */
+  
+    
   
   // esperial a partir del incremento del radio
   
@@ -60,6 +51,7 @@ function escama(x, y, ang, sc){
   scale(sc);
   fill("blue");
   stroke(0, );
-  triangle(-10, 0, 0, -20, 10, 0); 
+ // triangle(-10, 0, 0, -20, 10, 0);
+  ellipse(40, 40, 20);
   pop();
 }
